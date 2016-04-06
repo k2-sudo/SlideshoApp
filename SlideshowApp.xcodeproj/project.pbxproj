@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3028E7C41CB411E900A4E417 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3028E7C31CB411E900A4E417 /* 0.jpg */; };
 		3052AD321CB409990067BDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052AD311CB409990067BDBB /* AppDelegate.swift */; };
 		3052AD341CB409990067BDBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052AD331CB409990067BDBB /* ViewController.swift */; };
 		3052AD371CB409990067BDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3052AD351CB409990067BDBB /* Main.storyboard */; };
 		3052AD391CB409990067BDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3052AD381CB409990067BDBB /* Assets.xcassets */; };
 		3052AD3C1CB409990067BDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3052AD3A1CB409990067BDBB /* LaunchScreen.storyboard */; };
+		3052AD471CB40CFC0067BDBB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3052AD431CB40CFC0067BDBB /* 1.jpg */; };
+		3052AD481CB40CFC0067BDBB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3052AD441CB40CFC0067BDBB /* 2.jpg */; };
+		3052AD491CB40CFC0067BDBB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3052AD451CB40CFC0067BDBB /* 3.jpg */; };
+		3052AD4A1CB40CFC0067BDBB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3052AD461CB40CFC0067BDBB /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3028E7C31CB411E900A4E417 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		3052AD2E1CB409990067BDBB /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3052AD311CB409990067BDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3052AD331CB409990067BDBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		3052AD381CB409990067BDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3052AD3B1CB409990067BDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3052AD3D1CB409990067BDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3052AD431CB40CFC0067BDBB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		3052AD441CB40CFC0067BDBB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		3052AD451CB40CFC0067BDBB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		3052AD461CB40CFC0067BDBB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,21 @@
 				3052AD381CB409990067BDBB /* Assets.xcassets */,
 				3052AD3A1CB409990067BDBB /* LaunchScreen.storyboard */,
 				3052AD3D1CB409990067BDBB /* Info.plist */,
+				3028E7C31CB411E900A4E417 /* 0.jpg */,
+				3052AD431CB40CFC0067BDBB /* 1.jpg */,
+				3052AD441CB40CFC0067BDBB /* 2.jpg */,
+				3052AD451CB40CFC0067BDBB /* 3.jpg */,
+				3052AD4B1CB40D0D0067BDBB /* images */,
 			);
 			path = SlideshowApp;
+			sourceTree = "<group>";
+		};
+		3052AD4B1CB40D0D0067BDBB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3052AD461CB40CFC0067BDBB /* 4.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3052AD3C1CB409990067BDBB /* LaunchScreen.storyboard in Resources */,
+				3052AD4A1CB40CFC0067BDBB /* 4.jpg in Resources */,
+				3052AD471CB40CFC0067BDBB /* 1.jpg in Resources */,
+				3052AD481CB40CFC0067BDBB /* 2.jpg in Resources */,
+				3028E7C41CB411E900A4E417 /* 0.jpg in Resources */,
+				3052AD491CB40CFC0067BDBB /* 3.jpg in Resources */,
 				3052AD391CB409990067BDBB /* Assets.xcassets in Resources */,
 				3052AD371CB409990067BDBB /* Main.storyboard in Resources */,
 			);
@@ -285,6 +313,7 @@
 				3052AD421CB409990067BDBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
