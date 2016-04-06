@@ -79,7 +79,6 @@ class ViewController: UIViewController {
 
         //let targetView: ResultViewController? = self.storyboard!.instantiateViewControllerWithIdentifier( "DetailedImage" ) as? ResultViewController
         //self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
-        //self.presentViewController( targetView!, animated: true, completion: nil)
         let targetView: ResultViewController = self.storyboard!.instantiateViewControllerWithIdentifier( "DetailedImage" ) as! ResultViewController
         self.presentViewController( targetView, animated: true, completion: nil)
     }
