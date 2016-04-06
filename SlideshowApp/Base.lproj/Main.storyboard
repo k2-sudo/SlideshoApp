@@ -39,12 +39,6 @@
                                     <action selector="nextAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="weq-eb-ZDg"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WLj-nK-9bS">
-                                <rect key="frame" x="25" y="28" width="275" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="Kgb-Tz-YCf"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jn-9f-Sp2">
                                 <rect key="frame" x="45" y="242" width="40" height="43"/>
                                 <constraints>
@@ -56,6 +50,12 @@
                                     <action selector="backAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dlh-OW-Gcj"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WLj-nK-9bS">
+                                <rect key="frame" x="25" y="28" width="275" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Kgb-Tz-YCf"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="312" y="367"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="yLF-l9-sjc">
             <objects>
-                <viewController id="j9e-fn-PGE" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailedImage" id="j9e-fn-PGE" customClass="ResultViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r83-zM-v80"/>
                         <viewControllerLayoutGuide type="bottom" id="nt2-2W-gkd"/>
@@ -92,9 +92,22 @@
                     <view key="view" contentMode="scaleToFill" id="GkY-hG-b9S">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HdR-vl-E9s">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="画像" id="nvx-x4-VB1">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="Ugz-ZL-xXd"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="fileTitle" destination="HdR-vl-E9s" id="OYT-oz-WYM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JQq-gs-KwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

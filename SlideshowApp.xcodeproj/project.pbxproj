@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300E37231CB4E31200EF2A7F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300E37221CB4E31200EF2A7F /* ResultViewController.swift */; };
 		3028E7C41CB411E900A4E417 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3028E7C31CB411E900A4E417 /* 0.jpg */; };
 		3052AD321CB409990067BDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052AD311CB409990067BDBB /* AppDelegate.swift */; };
 		3052AD341CB409990067BDBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052AD331CB409990067BDBB /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300E37221CB4E31200EF2A7F /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		3028E7C31CB411E900A4E417 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		3052AD2E1CB409990067BDBB /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3052AD311CB409990067BDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,14 +68,11 @@
 			children = (
 				3052AD311CB409990067BDBB /* AppDelegate.swift */,
 				3052AD331CB409990067BDBB /* ViewController.swift */,
+				300E37221CB4E31200EF2A7F /* ResultViewController.swift */,
 				3052AD351CB409990067BDBB /* Main.storyboard */,
 				3052AD381CB409990067BDBB /* Assets.xcassets */,
 				3052AD3A1CB409990067BDBB /* LaunchScreen.storyboard */,
 				3052AD3D1CB409990067BDBB /* Info.plist */,
-				3028E7C31CB411E900A4E417 /* 0.jpg */,
-				3052AD431CB40CFC0067BDBB /* 1.jpg */,
-				3052AD441CB40CFC0067BDBB /* 2.jpg */,
-				3052AD451CB40CFC0067BDBB /* 3.jpg */,
 				3052AD4B1CB40D0D0067BDBB /* images */,
 			);
 			path = SlideshowApp;
@@ -82,6 +81,10 @@
 		3052AD4B1CB40D0D0067BDBB /* images */ = {
 			isa = PBXGroup;
 			children = (
+				3028E7C31CB411E900A4E417 /* 0.jpg */,
+				3052AD431CB40CFC0067BDBB /* 1.jpg */,
+				3052AD441CB40CFC0067BDBB /* 2.jpg */,
+				3052AD451CB40CFC0067BDBB /* 3.jpg */,
 				3052AD461CB40CFC0067BDBB /* 4.jpg */,
 			);
 			name = images;
@@ -166,6 +169,7 @@
 			files = (
 				3052AD341CB409990067BDBB /* ViewController.swift in Sources */,
 				3052AD321CB409990067BDBB /* AppDelegate.swift in Sources */,
+				300E37231CB4E31200EF2A7F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
