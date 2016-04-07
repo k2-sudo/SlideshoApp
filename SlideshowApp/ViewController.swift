@@ -120,8 +120,6 @@ class ViewController: UIViewController {
             playSlide()
             wasPlayed = false
         }
-        //text1.text = ""
-        //errorlabel.text = ""
     }
 
     override func didReceiveMemoryWarning() {
